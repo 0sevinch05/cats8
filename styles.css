@@ -1,0 +1,124 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    z-index: 1000;
+    box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+    transition: 0.5s;
+    border: 3px solid plum;
+      }
+
+      header {
+        display: block;
+        unicode-bidi: isolate;
+    }
+
+.left-side, .left-side1,.left-side3{
+        position: relative;
+        top: 100px;
+        background-color: pink;
+        width: 300px;
+        height: 280px;
+        padding: 60px 10px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+        transition: 0.5s;
+        border: 3px solid plum;
+       }
+
+.info1,.info2,.info3 {
+    position: relative;
+    background-color: lightblue;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 15px;
+    left: 400px;
+    bottom: 320px;
+    text-align: center; 
+    box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+    transition: 0.5s;
+    margin-top:-50px;
+    margin-bottom: 50px;
+    
+    
+     }   
+     div {
+        display: block;
+        unicode-bidi: isolate;
+        min-height: 100px;
+    }
+
+button {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10;
+     }
+
+     footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        z-index: 500;
+    }
+    footer {
+        display: block;
+        unicode-bidi: isolate;
+        
+    }
+
+
+
+    @media (max-width: 768px) {
+       .left-side, .left-side1, .left-side3 {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .info1, .info2, .info3 {
+        width: 90%;
+        height: auto;
+        left: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-bottom-left-radius: 0;
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        display: block;
+        margin: 10px auto;
+    }
+}
